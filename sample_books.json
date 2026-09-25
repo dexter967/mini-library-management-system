@@ -1,0 +1,34 @@
+{
+  "101": {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "is_available": true,
+    "borrower": null,
+    "borrow_date": null,
+    "due_date": null
+  },
+  "102": {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "is_available": false,
+    "borrower": "Alice",
+    "borrow_date": "2026-03-01",
+    "due_date": "2026-03-15"
+  },
+  "103": {
+    "title": "Design Patterns",
+    "author": "Erich Gamma",
+    "is_available": true,
+    "borrower": null,
+    "borrow_date": null,
+    "due_date": null
+  },
+  "104": {
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "is_available": false,
+    "borrower": "Bob",
+    "borrow_date": "2026-02-10",
+    "due_date": "2026-02-24"
+  }
+}
