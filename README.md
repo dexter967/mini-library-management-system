@@ -22,3 +22,16 @@ A lightweight, zero-dependency command-line interface (CLI) Library Management S
 ├── borrowing_records.txt  # Generated export file log of active loans
 ├── obstacle_log.md        # Log of development challenges & fixes
 └── README.md              # Project documentation
+
+
+Notes on the design
+Overdue window: a book is overdue if it's still checked out more than LOAN_PERIOD_DAYS (14, set at the top of library.py) days after the borrow date. Change that constant to adjust the loan period.
+Book IDs auto-increment based on the highest existing ID, so adding books mid-session won't collide with the sample data.
+See obstacle_log.md for the reasoning behind these choices and a few bugs that came up along the way.
+Push to GitHub
+git init
+git add .
+git commit -m "Mini library management system"
+git branch -M main
+git remote add origin https://github.com/<your-username>/<repo-name>.git
+git push -u origin main
