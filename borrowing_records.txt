@@ -1,0 +1,12 @@
+=====================================================
+     LIBRARY BORROWING RECORDS LOG
+     Generated on: 2026-09-25 23:25:00
+=====================================================
+
+ID     | Book Title                     | Borrower     | Due Date   | Status    
+---------------------------------------------------------------------------
+102    | Clean Code                     | Alice        | 2026-03-15 | OVERDUE   
+104    | Introduction to Algorithms     | Bob          | 2026-02-24 | OVERDUE   
+
+=====================================================
+End of Records Log
